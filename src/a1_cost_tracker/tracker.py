@@ -5,12 +5,12 @@ from groq import Groq
 load_dotenv()
 
 #Genai Model Implementation
-Genai_MODEL = "gemini-3.5-flash-lite"
+GenaiMODEL = os.getenv("Genai_MODEL")
 Genai_Key = os.getenv("Genai_API_Key")
 client = genai.Client(api_key=Genai_Key) # reads GEMINI_API_KEY
 print ("Genai Model Response")
-print (Genai_MODEL)
-resp = client.models.generate_content(model=Genai_MODEL, contents="My Name is Huzaifa and i am very happy to be a part of IEC Agentic AI Class.")
+print (GenaiMODEL)
+resp = client.models.generate_content(model=GenaiMODEL, contents="My Name is Huzaifa and i am very happy to be a part of IEC Agentic AI Class.")
 print(resp.text)
 print(resp.usage_metadata.prompt_token_count, resp.usage_metadata.candidates_token_count)
 #Costing Fuctionality
@@ -22,12 +22,12 @@ total_cost1 = input_cost1 + output_cost1
 print(f"Total cost: ${total_cost1:.6f}\n")
 
 # Groq Model Implementation
-Groq_MODEL = "openai/gpt-oss-120b"
+GroqMODEL = os.getenv("Groq_MODEL")
 Groq_Key= os.getenv("Groq_Key")
 client = Groq(api_key=Groq_Key) # reads GROQ_API_KEY
 print ("Groq AI Model Response")
-print (Groq_MODEL)
-resp = client.chat.completions.create(model=Groq_MODEL, messages=[{"role": "user", "content": "My Name is Huzaifa and i am very happy to be a part of IEC Agentic AI Class."}])
+print (GroqMODEL)
+resp = client.chat.completions.create(model=GroqMODEL, messages=[{"role": "user", "content": "My Name is Huzaifa and i am very happy to be a part of IEC Agentic AI Class."}])
 print(resp.choices[0].message.content)
 print(resp.usage.prompt_tokens, resp.usage.completion_tokens)
 #Costing Fuctionality
