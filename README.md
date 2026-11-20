@@ -4,7 +4,6 @@ sentences on what you learned.
 ## How to Run it?
 ### Step 1:
 
-
 First Activate the Environment thorugh this command in Bash.
 "source .venv/Scripts/activate"
 
