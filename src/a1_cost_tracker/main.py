@@ -21,9 +21,6 @@ print(resp.choices[0].message.content)
 print(resp.usage.prompt_tokens, resp.usage.completion_tokens)
 
 
-
-
-
 #Genai Model Implementation
 Genai_MODEL = "gemini-4-hydrogen"
 Genai_Key = os.getenv("Genai_API_Key")

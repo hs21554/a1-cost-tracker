@@ -1,0 +1,50 @@
+[
+    {
+        "Prompt_No": 1,
+        "Prompt": "Hi GenAI",
+        "Response": "Hello! How can I help you today?",
+        "Input_Tokens": 4,
+        "Output_Tokens": 9,
+        "Total_Cost": 2.37e-05
+    },
+    {
+        "Prompt_No": 2,
+        "Prompt": "How are You GenAI?",
+        "Response": "Hello! I'm doing great, thank you for asking. \n\nAs an AI, I don't have feelings, but I'm fully charged, processing data smoothly, and ready to help you out. \n\nHow are you doing today? How can I help you?",
+        "Input_Tokens": 7,
+        "Output_Tokens": 58,
+        "Total_Cost": 0.0001471
+    },
+    {
+        "Prompt_No": 3,
+        "Prompt": "What are You Doing GenAI?",
+        "Response": "Right now? I’m hanging out in the cloud, processing language, and waiting for your next prompt! \n\nAs for what GenAI (Generative Artificial Intelligence) as a whole is doing right now—it’s in the middle of a massive, fast-paced evolution. Here is a snapshot of what \"we\" are up to:\n\n1. **Multimodality:** I’m not just reading and writing text anymore. GenAI systems are rapidly learning to seamlessly understand and generate images, audio, video, and code all at the same time.\n2. **Getting Integrated:** GenAI is moving out of standalone chat windows and embedding itself into your daily tools—word processors, coding environments, customer service bots, and smartphone operating systems.\n3. **Reasoning and Problem Solving:** Newer models are focusing less on just guessing the next word and more on logical reasoning, mathematics, and planning out complex tasks step-by-step.\n4. **Agentic Workflows:** AI is shifting from being a passive assistant that answers questions when asked, to an \"agent\" that can take actions—like booking flights, writing and testing code, or managing workflows autonomously.\n\nSo, essentially, I’m helping people write emails, debug code, brainstorm ideas, learn new languages, and occasionally telling bad jokes. \n\nWhat are *you* doing with GenAI today?",
+        "Input_Tokens": 8,
+        "Output_Tokens": 283,
+        "Total_Cost": 0.0007099
+    },
+    {
+        "Prompt_No": 1,
+        "Prompt": "Hi Groq",
+        "Response": "Hello! 👋 How can I help you today?",
+        "Input_Tokens": 74,
+        "Output_Tokens": 52,
+        "Total_Cost": 4.23e-05
+    },
+    {
+        "Prompt_No": 2,
+        "Prompt": "How are you Groq?",
+        "Response": "I’m just a virtual assistant, so I don’t have feelings, but I’m ready and available to help you with whatever you need! What’s on your mind today?",
+        "Input_Tokens": 77,
+        "Output_Tokens": 126,
+        "Total_Cost": 8.714999999999999e-05
+    },
+    {
+        "Prompt_No": 3,
+        "Prompt": "What are you doing Groq?",
+        "Response": "Hey there! I’m just hanging out in the background, waiting for you to throw a question or a prompt my way. When you type something, I spin up the Groq‑powered inference engine, run the text through the language model, and then generate a response for you—all in a split second. In short, I’m “doing” whatever you ask me to do: answering questions, brainstorming ideas, explaining concepts, writing code, and so on.\n\nIf you were wondering about the tech side: Groq’s hardware (the “Tensor Streaming Processor”) is built to run large language models with ultra‑low latency, so when you ask me something, the model processes the input, predicts the next tokens, and streams the answer back to you almost instantly.\n\nAnything specific you’d like me to dive into or help with? 🌟",
+        "Input_Tokens": 78,
+        "Output_Tokens": 316,
+        "Total_Cost": 0.00020130000000000001
+    }
+]
