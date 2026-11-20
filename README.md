@@ -25,12 +25,12 @@ Save each response to "Results.json" as it is generated.
 
 ## Technologies
 
-**Python** --- application logic
-**Google Gen AI SDK** --- Gemini API integration
-**Groq Python SDK** --- Groq API integration
-**python-dotenv** --- load API keys and model names from environment variables
-**JSON** --- store generated results
-**uv** --- Python project, dependency and package management
+1. **Python** --- application logic
+2. **Google Gen AI SDK** --- Gemini API integration
+3. **Groq Python SDK** --- Groq API integration
+4. **python-dotenv** --- load API keys and model names from environment variables
+5. **JSON** --- store generated results
+6. **uv** --- Python project, dependency and package management
 
 ## Project Structure
 
@@ -51,11 +51,11 @@ a1-cost-tracker/
 
 ## Prerequisites
 
-> Python version supported by the dependencies in "pyproject.toml".
-> uv installed using command "winget install --id = astral-sh .uv -e.
-> Check uv --version.
-> A Google Gemini API key (Get from Google AI API Studio)
-> A Groq API key (Get from Groq Cloud)
+1. Python version supported by the dependencies in "pyproject.toml".
+2. uv installed using command "winget install --id = astral-sh .uv -e.
+3. Check uv --version.
+4. A Google Gemini API key (Get from Google AI API Studio)
+5. A Groq API key (Get from Groq Cloud)
 
 ## Installation
 
@@ -189,6 +189,6 @@ The actual response, token counts, and cost will depend on the prompt and select
 > Build a dashboard for model, token, and cost comparisons.
 > Add error handling and logging.
 
-## Contributing
+## Suggestion
 
 Suggestions and improvements are welcome. For significant changes, consider opening an issue first to discuss what you would like to change.
